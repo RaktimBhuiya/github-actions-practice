@@ -1,10 +1,13 @@
+#workflow
 name: Hello
-
+#on tells when the workflow should run
 on:
   workflow_dispatch: 
-
+#Job tells what the workflow should do (Give indentation by tab)
 jobs:
+    #1st job
     say-hello:
+      # Create a ephemeral container with ubuntu running
       runs-on: ubuntu-latest
       steps:
         - name: Say hello to everyone
