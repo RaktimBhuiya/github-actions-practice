@@ -3,7 +3,7 @@ name: Hello
 on:
   workflow_dispatch: 
 
-  job:
+  jobs:
     say-hello:
       runs-on: ubuntu-latest
       steps:
